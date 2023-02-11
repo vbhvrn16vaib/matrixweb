@@ -6,5 +6,4 @@
 const nextConfig = {
   basePath: '/matrixweb',
 }
-
 module.exports = nextConfig
