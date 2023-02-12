@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "@next/font": "13.1.6",
@@ -16,6 +17,7 @@
     "bootstrap": "^5.2.3",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
+    "mdb-react-ui-kit": "^5.1.0",
     "next": "13.1.6",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.1",

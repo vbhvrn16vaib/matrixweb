@@ -5,8 +5,8 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 export default function NavHead() {
     return (
 
-        <Navbar bg="light" expand="lg" sticky="top">
-            <Container fluid>
+        <Navbar bg="light" expand="lg" sticky="top" className="py-3 py-lg-5">
+            <Container fluid >
                 <Navbar.Brand href="#home">Matrix Solutions</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">

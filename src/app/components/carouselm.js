@@ -6,13 +6,13 @@ export default function CarouselM() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://picsum.photos/seed/picsum/900/500"
-                    alt="First slide"
+                    src="solar_pannels.avif"
+                    alt="MAXSOL SOLUTIONS"
                 />
-                <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                </Carousel.Caption>
+                {/* <Carousel.Caption>
+                    <h3>Matrix Solutions</h3>
+                    <p>Go Green!</p>
+                </Carousel.Caption> */}
             </Carousel.Item>
         </Carousel>
     )
