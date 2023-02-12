@@ -15,7 +15,7 @@ export default function NavHead() {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="#link">Products</Nav.Link>
                         <Nav.Link href="#link">Blog</Nav.Link>
-                        <Nav.Link href="#link">Contact us</Nav.Link>
+                        <Nav.Link href="#contact_us">Contact us</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

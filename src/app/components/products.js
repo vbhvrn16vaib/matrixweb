@@ -46,19 +46,14 @@ export default function Products() {
                     <HAVELSPRODUCT />
                 </Col>
                 <Col>
-                    {/* <iframe width="555" height="312" src="https://www.youtube.com/embed/oMiCjKqXAw4" title="Havells Grid Tie Inverter" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
-                </iframe> */}
                  <YoutubeEmbed embedId="oMiCjKqXAw4" />
                 </Col>
             </Row>
             <Row>
                 <Col>
-                {/* https://virtualshop.havells.com/e-commerce-tour/welcome-to-havells-experience-zone-038effba#HQRwv1An0Mw */}
-
                     <iframe width="800" height="312" src="https://virtualshop.havells.com/e-commerce-tour/welcome-to-havells-experience-zone-038effba#HQRwv1An0Mw" 
                     title="Havells Grid Tie Inverter" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
+                    frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
                     </iframe>
                 </Col>
             </Row>
