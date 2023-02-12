@@ -4,6 +4,7 @@ import ElectricalServices from '../../pages/blog/electrical_services.mdx'
 import PVSYSTEMS from '../../pages/blog/pv_systems.mdx'
 import HAVELSPRODUCT from '../../pages/blog/havell_products.mdx'
 import EHSPOLICY from '../../pages/blog/ehs_policy.mdx'
+import QualityPolicy from '../../pages/blog/quality_policy.mdx'
 
 export default function Products() {
     return <>
@@ -42,10 +43,15 @@ export default function Products() {
                 <Col>
                     <HAVELSPRODUCT />
                 </Col>
+            </Row>
+            <hr></hr>
+            <Row>
                 <Col>
                     <EHSPOLICY />
                 </Col>
-
+                <Col>
+                    <QualityPolicy />
+                </Col>
             </Row>
         </Container>
     </>
