@@ -43,6 +43,9 @@ export default function Products() {
                 <Col>
                     <HAVELSPRODUCT />
                 </Col>
+                <Col>
+                <iframe width="555" height="312" src="https://www.youtube.com/embed/oMiCjKqXAw4" title="Havells Grid Tie Inverter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </Col>
             </Row>
             <hr></hr>
             <Row>
