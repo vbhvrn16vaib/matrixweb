@@ -16,7 +16,6 @@ export default function NavHead() {
                         <Nav.Link href="#link">Products</Nav.Link>
                         <Nav.Link href="#link">Blog</Nav.Link>
                         <Nav.Link href="#link">Contact us</Nav.Link>
-                        <Nav.Link src="../../pages/virtualtour.js">VirtualTour</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
