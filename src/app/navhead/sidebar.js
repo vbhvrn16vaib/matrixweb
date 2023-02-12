@@ -1,11 +1,12 @@
 'use client';
 
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import './nav.css'
 
 export default function NavHead() {
     return (
 
-        <Navbar bg="light" expand="lg" sticky="top" className="py-3 py-lg-5">
+        <Navbar bg="light" expand="lg" sticky="top" className="mysticky py-3 py-lg-5">
             <Container fluid >
                 <Navbar.Brand href="#home">Matrix Solutions</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -15,6 +16,7 @@ export default function NavHead() {
                         <Nav.Link href="#link">Products</Nav.Link>
                         <Nav.Link href="#link">Blog</Nav.Link>
                         <Nav.Link href="#link">Contact us</Nav.Link>
+                        <Nav.Link src="../../pages/virtualtour.js">VirtualTour</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
