@@ -35,9 +35,7 @@ export default function MyFooter() {
           <MDBContainer className='text-center text-md-start mt-5'>
             <MDBRow className='mt-3'>
               <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-                <p>
                     <Info />
-                </p>
               </MDBCol>
   
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
