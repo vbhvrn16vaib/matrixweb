@@ -6,6 +6,8 @@ export default function CarouselM() {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
+                    width={900}
+                    height={600}
                     src="solar_pannels.avif"
                     alt="MAXSOL SOLUTIONS"
                 />
