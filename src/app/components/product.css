@@ -1,4 +1,4 @@
-.img {
+/* .img {
     position: relative;
     box-shadow: 10px 8px 10px 5px orange;
     padding: 10px;
@@ -12,13 +12,10 @@
     content: "";
     position: absolute;
     inset: -5px;
-    /* control the spread */
     transform: translate3d(10px, 8px, -1px);
     z-index: -1;
-    /* place the element behind */
     background: rgb(88, 88, 152);
     filter: blur(10px);
-    /* control the blur */
 }
 
 .img::after {
@@ -26,8 +23,11 @@
     position: absolute;
     z-index: -1;
     inset: 0;
-    /* Inherit all the decorations defined on the main element */
     background: inherit;
     border: inherit;
     box-shadow: inherit;
-}
+} */
+
+.anim {
+    opacity: 0;
+}  

@@ -9,6 +9,8 @@ import NavHead from './navhead/sidebar';
 import Disclaimer from '../pages/blog/disclaimer.mdx'
 import GovernmentNews from './components/government';
 import './disc.css'
+import { ParallaxProvider } from 'react-scroll-parallax';
+import Areas from './components/areas';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,17 +18,22 @@ export default function Home() {
 
   return (
     <>
-    <div bg="light">
-      <NavHead />
+    <ParallaxProvider>
+      {/* <NavHead /> */}
+
       <CarouselM />
+      <Areas />
       <Disclaimer components={{
-        h4: (props) => <h4 {...props} className="text-xl font-light disc" />}}
-        />
-      <Products />
+        h4: (props) => <h4 {...props} className="text-xl font-light disc" />
+      }}
+      />
       <Clients />
+      <Products />
       <GovernmentNews />
+      </ParallaxProvider>
+
       <MyFooter />
-    </div>
+      
     </>
   )
 }
