@@ -27,8 +27,8 @@ export default function Home() {
         h4: (props) => <h4 {...props} className="text-xl font-light disc" />
       }}
       />
-      <Clients />
       <Products />
+      <Clients />
       <GovernmentNews />
       </ParallaxProvider>
 

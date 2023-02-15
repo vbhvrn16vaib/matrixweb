@@ -88,3 +88,9 @@
   margin: 10px;
   color: blue;
 }
+
+.centerme {
+  display: flex;
+  font-weight: 300;
+  justify-content: center;
+}

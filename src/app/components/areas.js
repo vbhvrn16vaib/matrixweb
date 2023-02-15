@@ -15,11 +15,9 @@ export default function Areas() {
         const trans = [[-10,20], [10,-10]]
 
     function imageElement(img, i){
-        console.log(i/2);
         if(i == undefined || i == null) return<></>
         let x = trans[i%2][0]
         let y = trans[i%2][1]
-        console.log(x +":" + y);
         return (<Col>
         <Parallax translateX={[x, y]}>
             <Image
@@ -32,7 +30,6 @@ export default function Areas() {
     }
 
     function contentElement(content, i){
-        console.log(i/2);
         if(i == undefined || i == null) return<></>
         let x = trans[i%2][0]
         let y = trans[i%2][1]
