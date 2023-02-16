@@ -1,7 +1,7 @@
 'use client';
 
 import Image from "next/image";
-import { Col, Container, Row } from "react-bootstrap";
+import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
 import ElectricalServices from '../../pages/blog/electrical_services.mdx'
 import PVSYSTEMS from '../../pages/blog/pv_systems.mdx'
 import HAVELSPRODUCT from '../../pages/blog/havell_products.mdx'
@@ -10,10 +10,8 @@ import QualityPolicy from '../../pages/blog/quality_policy.mdx'
 import Maintainence from '../../pages/blog/maintainence.mdx'
 import YoutubeEmbed from "./youtubeembed";
 import './product.css'
-import { AnimatePresence, motion } from "framer-motion"
 import ProductCount from "./project_count";
 import { StrictMode } from "react";
-import { Parallax } from "react-scroll-parallax";
 
 export default function Products() {
     const spring = {
@@ -34,23 +32,119 @@ export default function Products() {
                 </Col>
 
             </Row>
-            <hr></hr>
-            <Parallax translateX={[-4, 12]}>
-                <Row xs={1} md={2}>
-                    <Col>
-                        <Image
-                            className="img"
-                            src="/solar_image.png"
-                            width={500}
-                            height={500} />
-                    </Col>
+            <Row>
+                <Col>
+                    <CardGroup>
+                        <Card className="p-3" >
+                            <div className="card_container">
+                                <div className="cardx">
+                                    <div className="imgBx">
+                                        <img src="/solar_image.png" />
+                                    </div>
+                                    <div className="contentBx">
+                                        <h2>PV System</h2>
+                                        <div className="color">
+                                            <ul style={{listStyle: "none"}}>
+                                            <hr/>
+                                            <li>Solar energy products</li>
+                                            <li>Solar thermal products.</li>
+                                            <li>Fire Detection and Alarm System</li>
+                                            <li>Fire Suppression Equipments</li>
+                                            <li>CCTV</li>
+                                            <li>Home Automation</li>
+                                            <li>Access Control</li>
+                                            </ul>
+                                        </div>
+                                        <a href="#">Buy Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card className="p-3">
+                        <div className="card_container">
+                                <div className="cardx">
+                                    <div className="imgBx">
+                                        <img src="/home-electrical-wiring.webp" />
+                                    </div>
+                                    <div className="contentBx">
+                                        <h2>Electricals</h2>
+                                        <div className="color">
+                                            <ul style={{listStyle: "none"}}>
+                                            <hr/>
+                                            <li>MATRIX SOLUTIONS provides electrical installation, maintenance and repair services to single family homes, condominiums, multiple family units, and commercial accounts for both new construction or remodelling projects.
 
-                    <Col className="justify-center">
-                        <PVSYSTEMS />
-                    </Col>
-                </Row>
-            </Parallax>
-            <hr></hr>
+</li>
+                                            </ul>
+                                        </div>
+                                        <a href="#">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card className="p-3">
+                        <div className="card_container">
+                                <div className="cardx">
+                                    <div className="imgBx">
+                                        <img src="/home-electrical-wiring.webp" />
+                                    </div>
+                                    <div className="contentBx">
+                                        <h2>Products</h2>
+                                        <div className="color">
+                                            <ul style={{listStyle: "none"}}>
+                                            <hr/>
+                                            <li>HAVELLS is a big and well established name in field of electricals and also deals in Solar products. Matrix solution is a business partner of the company and can provide the products including installation services for the following category of products.
+
+</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                        <Card className="p-3">
+                        <div className="card_container">
+                                <div className="cardx">
+                                    <div className="imgBx">
+                                        <img src="/home-electrical-wiring.webp" />
+                                    </div>
+                                    <div className="contentBx">
+                                        <h2>Policies</h2>
+                                        <div className="color">
+                                            <ul style={{listStyle: "none"}}>
+                                            <hr/>
+                                            <li>Explore our EHS and Quality Policies..</li>
+                                            </ul>
+                                        </div>
+                                        <a href="#">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+
+                        <Card className="p-3">
+                        <div className="card_container">
+                                <div className="cardx">
+                                    <div className="imgBx">
+                                        <img src="/home-electrical-wiring.webp" />
+                                    </div>
+                                    <div className="contentBx">
+                                        <h2>Maintainence</h2>
+                                        <div className="color">
+                                            <ul style={{listStyle: "none"}}>
+                                            <hr/>
+                                            <li>We undertake the maintenance of commercial as well residential building for the following systems as O&M Service or as Preventive Service.</li>
+                                            </ul>
+                                        </div>
+                                        <a href="#">More...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </Card>
+                    </CardGroup>
+
+                </Col>
+            </Row>
+            {/* <hr></hr>
             <Row>
                 <Col>
                     <ElectricalServices />
@@ -62,8 +156,8 @@ export default function Products() {
                         width={500}
                         height={500} />
                 </Col>
-            </Row>
-            <hr></hr>
+            </Row> */}
+            {/* <hr></hr>
             <Row>
                 <div>
                     <h2>Products</h2>
@@ -97,7 +191,7 @@ export default function Products() {
                 <Col>
                     <Maintainence />
                 </Col>
-            </Row>
+            </Row> */}
 
         </Container>
     </>

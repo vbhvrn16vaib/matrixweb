@@ -34,7 +34,7 @@ export default function Areas() {
         let x = trans[i%2][0]
         let y = trans[i%2][1]
         return (
-            <Col>
+            <Col className="text-center">
                 <Parallax translateX={[x, y]}>
                     <div>
                         {content}
