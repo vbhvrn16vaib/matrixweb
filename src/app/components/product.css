@@ -103,6 +103,7 @@
     visibility: hidden;
     color: #270b0b;
     font-weight: 700;
+    font-size: large;
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -122,13 +123,13 @@
   .card_container .cardx.contentBx .size h3, .card_container .cardx.contentBx .color h3{
     color: #fff;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 30px;
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-right: 10px;
   }
   
-  .card_container .cardx.contentBx .size span{
+  .card_container .cardx.contentBx .size li{
     width: 26px;
     height: 26px;
     text-align: center;
@@ -181,5 +182,10 @@
 
   .card {
     border: none;
+  }
+
+  .rowd {
+    margin: 50px;
+    padding: 20px;
   }
   
