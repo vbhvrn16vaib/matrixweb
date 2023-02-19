@@ -1,4 +1,5 @@
 import { Carousel } from "react-bootstrap";
+import ProductCount from "./project_count";
 
 export default function CarouselM() {
     return (

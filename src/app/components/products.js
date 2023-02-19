@@ -2,12 +2,12 @@
 
 import Image from "next/image";
 import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
-import ElectricalServices from '../../pages/blog/electrical_services.mdx'
-import PVSYSTEMS from '../../pages/blog/pv_systems.mdx'
-import HAVELSPRODUCT from '../../pages/blog/havell_products.mdx'
-import EHSPOLICY from '../../pages/blog/ehs_policy.mdx'
-import QualityPolicy from '../../pages/blog/quality_policy.mdx'
-import Maintainence from '../../pages/blog/maintainence.mdx'
+// import ElectricalServices from '../../pages/blog/electrical_services.mdx'
+// import PVSYSTEMS from '../../pages/blog/pv_systems.mdx'
+// import HAVELSPRODUCT from '../../pages/blog/havell_products.mdx'
+// import EHSPOLICY from '../../pages/blog/ehs_policy.mdx'
+// import QualityPolicy from '../../pages/blog/quality_policy.mdx'
+// import Maintainence from '../../pages/blog/maintainence.mdx'
 import YoutubeEmbed from "./youtubeembed";
 import './product.css'
 import ProductCount from "./project_count";
@@ -30,7 +30,6 @@ export default function Products() {
                         <ProductCount />
                     </StrictMode>
                 </Col>
-
             </Row>
             <Row className="rowd">
                 <Col>

@@ -2,4 +2,17 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; 
+    background: transparent;
+    padding: 90px 10px;
+    opacity: 0;
+    z-index: 2000;
+}
+
+.resize{
+  padding: 10px 10px;
+  font-size: 25px;
+  opacity: 1;
+  transition: 0.6s 1;
+  background: lightblue;
+  z-index: 2000;
 }

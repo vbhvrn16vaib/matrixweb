@@ -20,6 +20,23 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.resolve = {
+        ...config.resolve,
+        fallback: {
+          ...config.resolve.fallback,
+          child_process: false,
+          fs: false,
+          'builtin-modules': false,
+          worker_threads: false,
+        },
+      }
+    }
+
+    return config
+  }
 }
 
 module.exports = withMDX(nextConfig)

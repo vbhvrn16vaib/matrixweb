@@ -6,7 +6,7 @@ import './../disc.css'
 export default function Areas() {
     const images = ["/images/telecom.svg", "/images/solars.svg", "/images/hrum-home.svg", "/images/cctv.svg"]
 
-    const content = [" Telecom, Network Systems ( Installation of Data Wiring & Components) Phone & Data Outlets ( Installation, Repair & Maintenance) Trouble Shooting ( General Trouble Shooting of Electrical System problems)",
+    const content = [" Telecom, Network Systems (Installation of Data Wiring & Components) Phone & Data Outlets ( Installation, Repair & Maintenance) Trouble Shooting ( General Trouble Shooting of Electrical System problems)",
         "Solar Panels, Suggestions,  Panel Replacements ( Replace Fuse or old breaker panels with new Circuit Breaker Panels)",
         " Lighting – Interior / Exterior ( Installation, Repair & Maintenance of Fixtures & Wiring ) Lighting – Landscape ( Installation, Repair & Maintenance of Fixtures & Wiring ), Home Inspections ( Buyer / Seller House Inspection), Smoke Detectors ( Installations)",
         " *Automation Controls & Systems ( Automatic Lighting) * CCTV"]
@@ -36,7 +36,7 @@ export default function Areas() {
         return (
             <Col className="text-center">
                 <Parallax translateX={[x, y]}>
-                    <div>
+                    <div className="area-content">
                         {content}
                     </div>
                 </Parallax>
