@@ -1,5 +1,4 @@
 import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-kit";
-import Info from '../../pages/blog/info.mdx'
 
 export default function MyFooter() {
     return (
@@ -35,7 +34,11 @@ export default function MyFooter() {
           <MDBContainer className='text-center text-md-start mt-5'>
             <MDBRow className='mt-3'>
               <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
-                    <Info />
+                    <div>
+                    MATRIX SOLUTIONS is a solutions provider company, which serves in the field of ELECTRONICS FIRE SAFETY AND SECURITY SYSTEMS, SOLAR POWER AND ELCTRICALS Fire alarm & electronic services.
+
+                    We are associated with some of the Leader company in thier field.
+                    </div>
               </MDBCol>
   
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>

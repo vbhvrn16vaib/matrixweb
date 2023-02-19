@@ -23,7 +23,7 @@ export default function MyCards() {
                                     <li>Access Control</li>
                                 </ul>
                             </div>
-                            <a href="#">Buy Now</a>
+                            <a href="/blog/pv_systems">More</a>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export default function MyCards() {
                                     </li>
                                 </ul>
                             </div>
-                            <a href="#">More...</a>
+                            <a href="/blog/electrical_services">More...</a>
                         </div>
                     </div>
                 </div>
@@ -65,6 +65,7 @@ export default function MyCards() {
                                     </li>
                                 </ul>
                             </div>
+                            <a href="/blog/havell_products">More...</a>
                         </div>
                     </div>
                 </div>
@@ -83,7 +84,7 @@ export default function MyCards() {
                                     <li>Explore our EHS and Quality Policies..</li>
                                 </ul>
                             </div>
-                            <a href="#">More...</a>
+                            <a href="/blog/quality_policy">More...</a>
                         </div>
                     </div>
                 </div>
@@ -103,7 +104,7 @@ export default function MyCards() {
                                     <li>We undertake the maintenance of commercial as well residential building for the following systems as O&M Service or as Preventive Service.</li>
                                 </ul>
                             </div>
-                            <a href="#">More...</a>
+                            <a href="/blog/maintainence">More...</a>
                         </div>
                     </div>
                 </div>
