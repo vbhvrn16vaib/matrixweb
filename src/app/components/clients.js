@@ -15,7 +15,7 @@ export default function Clients() {
             <Row className='justify-content-center rowd'>
                 {Array(images.length).fill(0).map((_, i) => {
                     return (
-                        <Col>
+                        <Col key={i} >
                             <Image
                                 src={images[i]}
                                 width={100}

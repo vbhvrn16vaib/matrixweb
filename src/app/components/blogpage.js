@@ -14,7 +14,7 @@ export default function BlogPage({ posts }) {
       <div className='projcard-container'>
         {posts.filter((frontMatter) => frontMatter.display != false).map((frontMatter) => {
           return (
-            <Link href={`/blog/${frontMatter.slug}`} passHref>
+            <Link key={frontMatter.slug} href={`/blog/${frontMatter.slug}`} passHref>
               <div className='projcard'>
               <div className="projcard-innerbox">
                 <img className="projcard-img" src={frontMatter.img} alt=""/>
