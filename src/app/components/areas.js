@@ -18,7 +18,7 @@ export default function Areas() {
         if(i == undefined || i == null) return<></>
         let x = trans[i%2][0]
         let y = trans[i%2][1]
-        return (<Col>
+        return (<Col key={i} >
         <Parallax translateX={[x, y]}>
             <Image
                 src={img}
@@ -34,7 +34,7 @@ export default function Areas() {
         let x = trans[i%2][0]
         let y = trans[i%2][1]
         return (
-            <Col className="text-center">
+            <Col key={i} className="text-center">
                 <Parallax translateX={[x, y]}>
                     <div className="area-content">
                         {content}
@@ -62,7 +62,7 @@ export default function Areas() {
         <Container>
             {Array(images.length).fill(0).map((_, i) => {
                 return (
-                    <Row className="justify-content-md-center">
+                    <Row key={i} className="justify-content-md-center">
                         {alt(i)}
                     </Row>
                 )
