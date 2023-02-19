@@ -62,7 +62,7 @@ export default function Areas() {
         <Container>
             {Array(images.length).fill(0).map((_, i) => {
                 return (
-                    <Row className="justify-content-md-center">
+                    <Row key={i} className="justify-content-md-center">
                         {alt(i)}
                     </Row>
                 )
