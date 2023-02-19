@@ -60,8 +60,6 @@ export default function Blog({ post: { source, frontmatter } }) {
                     <MDXRemote {...source} />
                 </div>
             </div>
-            <MyFooter />
-
         </React.Fragment>
     );
 }

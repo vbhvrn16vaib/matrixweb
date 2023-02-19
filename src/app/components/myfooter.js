@@ -1,5 +1,4 @@
 import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-kit";
-import Info from '../../data/articles/info.mdx'
 
 export default function MyFooter() {
     return (
