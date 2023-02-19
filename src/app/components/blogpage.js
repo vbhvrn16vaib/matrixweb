@@ -16,11 +16,11 @@ export default function BlogPage({ posts }) {
           return (
             <Link href={`/blog/${frontMatter.slug}`} passHref>
               <div className='projcard'>
-              <div class="projcard-innerbox">
-                <img class="projcard-img" src={frontMatter.img} alt=""/>
-                <div class="projcard-textbox">
+              <div className="projcard-innerbox">
+                <img className="projcard-img" src={frontMatter.img} alt=""/>
+                <div className="projcard-textbox">
                 <h1 className="projcard-title">{frontMatter.title}</h1>
-                <div class="projcard-bar"></div>
+                <div className="projcard-bar"></div>
                 <p className="projcard-description">{frontMatter.excerpt}</p>
                 <p className="date">
                   {dayjs(frontMatter.publishedAt).format('MMMM D, YYYY')} &mdash;{' '}

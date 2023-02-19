@@ -230,3 +230,8 @@
     margin: 0 0 1.15em;
 }
 
+.scroller img {
+    width: 400px;
+    height: 400px;
+}
+

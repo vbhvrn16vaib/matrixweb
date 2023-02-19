@@ -51,7 +51,7 @@ export default function Blog({ post: { source, frontmatter } }) {
             </Head>
             <div className="container">
                 <div className='scroller'>
-                    <img src={frontmatter.img} />
+                    { frontmatter.img != null ? <img src={frontmatter.img} /> : <></>}
                     <h1 className="article-title">{frontmatter.title}</h1>
                     <p className="publish-date">
                         {dayjs(frontmatter.publishedAt).format('MMMM D, YYYY')} &mdash;{' '}
