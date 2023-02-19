@@ -6,7 +6,7 @@ import useSWR from 'swr';
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
-export default function getStaticProps() {
+export default function RenderBlog() {
 
 
     const { data, error } = useSWR('/api/articles', fetcher);

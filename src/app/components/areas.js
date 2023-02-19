@@ -18,7 +18,7 @@ export default function Areas() {
         if(i == undefined || i == null) return<></>
         let x = trans[i%2][0]
         let y = trans[i%2][1]
-        return (<Col>
+        return (<Col key={i} >
         <Parallax translateX={[x, y]}>
             <Image
                 src={img}
