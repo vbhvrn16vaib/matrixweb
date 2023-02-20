@@ -4,11 +4,14 @@ import Link from "next/link"
 import dayjs from 'dayjs';
 import './blog.css'
 import MyFooter from './myfooter';
+import Script from "next/script";
 
 export default function BlogPage({ posts }) {
   return (
     <>
       <Head>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7962958774331843"
+     crossOrigin="anonymous"></script>
         <title>My Blog</title>
       </Head>
       <div className='projcard-container'>
