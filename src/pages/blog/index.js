@@ -15,14 +15,7 @@ export default function RenderBlog() {
 
     if (!data) return <div>Loading...</div>;
 
-    data.map((article) => article.data)
-        .sort((a, b) => {
-            console.log(a.data.publishedAt > b,data.publishedAt);
-            if (a.data.publishedAt > b.data.publishedAt) return 1
-            if (a.data.publishedAt < b.data.publishedAt) return -1
+    data.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
 
-            return 0
-    });
-
-    return <BlogPage posts={ data.reverse() } />;
+    return <BlogPage posts={ data } />;
 }
