@@ -31,8 +31,8 @@ export default function NavHead() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="justify-content-end flex-grow-1 pe-1">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="#link">Products</Nav.Link>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="/blog/havell_products">Products</Nav.Link>
                         <Nav.Link href="/blog">Blog</Nav.Link>
                         <Nav.Link href="#contact_us">Contact us</Nav.Link>
                     </Nav>
