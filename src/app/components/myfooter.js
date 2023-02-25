@@ -2,7 +2,7 @@ import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-k
 
 export default function MyFooter() {
     return (
-        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
+        <MDBFooter bgColor='light' className='text-center text-lg-start text-muted' id="contact_us">
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
           <div className='me-5 d-none d-lg-block'>
             <span>Get connected with us on social networks:</span>
