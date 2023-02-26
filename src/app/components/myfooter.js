@@ -1,31 +1,31 @@
 import { MDBCol, MDBContainer, MDBFooter, MDBIcon, MDBRow } from "mdb-react-ui-kit";
+import "mdb-react-ui-kit/dist/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 export default function MyFooter() {
     return (
+      <>
         <MDBFooter bgColor='light' className='text-center text-lg-start text-muted' id="contact_us">
         <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
           <div className='me-5 d-none d-lg-block'>
             <span>Get connected with us on social networks:</span>
           </div>
+
+
   
-          <div>
-            <a href='' className='me-4 text-reset'>
+          <div class="icon-list">
+            <a href='#' className='me-4 text-reset'>
               <MDBIcon fab icon="facebook-f" />
             </a>
             <a href='' className='me-4 text-reset'>
               <MDBIcon fab icon="twitter" />
             </a>
             <a href='' className='me-4 text-reset'>
-              <MDBIcon fab icon="google" />
-            </a>
-            <a href='' className='me-4 text-reset'>
               <MDBIcon fab icon="instagram" />
             </a>
             <a href='' className='me-4 text-reset'>
               <MDBIcon fab icon="linkedin" />
-            </a>
-            <a href='' className='me-4 text-reset'>
-              <MDBIcon fab icon="github" />
             </a>
           </div>
         </section>
@@ -118,5 +118,6 @@ export default function MyFooter() {
           </a>
         </div>
       </MDBFooter>
+      </>
     );
 }

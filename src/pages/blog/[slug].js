@@ -47,7 +47,7 @@ export default function Blog({ post: { source, frontmatter } }) {
     return (
         <React.Fragment>
             <Head>
-                <title>{frontmatter.title} | Matrix Solutions blog</title>
+                <title>{frontmatter.title}</title>
                 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7962958774331843" crossOrigin="anonymous"></script>
             </Head>
             <div className="container">
