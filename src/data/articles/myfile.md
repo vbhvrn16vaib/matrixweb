@@ -1,1 +1,2 @@
-Hello from JAVA and GraphQL
+hello world 
+
