@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { Col, Row } from 'react-bootstrap';
-import './product.css'
+import './client.css'
 
 export default function Clients() {
     const images = ["/images/zimcom.png", "/images/fireprologo.png", "/images/johnson-controls.png", "/images/havells.png", "/images/sobha.png", "/images/tata_power.jpeg","/images/exicom.svg"]

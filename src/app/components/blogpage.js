@@ -5,6 +5,7 @@ import dayjs from 'dayjs';
 import './blog.css'
 import MyFooter from './myfooter';
 import Script from "next/script";
+import NavHead from '../navhead/sidebar';
 
 export default function BlogPage({ posts }) {
   return (
@@ -14,6 +15,7 @@ export default function BlogPage({ posts }) {
      crossOrigin="anonymous"></script>
         <title>My Blog</title>
       </Head>
+      <NavHead />
       <div className='projcard-container'>
         {posts.filter((frontMatter) => frontMatter.display != false).map((frontMatter) => {
           return (

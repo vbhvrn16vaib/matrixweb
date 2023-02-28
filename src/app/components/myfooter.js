@@ -14,7 +14,7 @@ export default function MyFooter() {
 
 
   
-          <div class="icon-list">
+          <div className="icon-list">
             <a href='#' className='me-4 text-reset'>
               <MDBIcon fab icon="facebook-f" />
             </a>
