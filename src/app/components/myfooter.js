@@ -98,7 +98,7 @@ export default function MyFooter() {
                 </p>
                 <p>
                   <MDBIcon icon="envelope" className="me-3" />
-                  maxsol@rediffmail.com
+                  shankeytcs@gmail.com
                 </p>
                 <p>
                   <MDBIcon icon="phone" className="me-3" /> + 91 9686 322 775
